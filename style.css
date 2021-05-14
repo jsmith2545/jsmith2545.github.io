@@ -44,14 +44,14 @@ table{
 	border-left-color: #000;
 	background-color: #CCC;
 }
-.menuitem {
+li.menuitem {
 	display: inline;
 	 float: left;
     width: 105px;
     background-color: #dddddd;
-    border: 1px solid #blue;
+    border: 1px solid blue;
     border-radius: 40px;
-    color: #blue;
+    color: blue;
     list-style-type: none;
     margin: 10px;
     padding: 5px;
@@ -60,25 +60,29 @@ table{
 }
 .td-section1{
 	background-color: #ffffff;
-}
+	text-align:left;
+	vertical-align:top
+	}
 .td-section2{
 	background-color: #ffffff;
 }
 .td-logo {
 	 float: right;
 }
+a:visited {
+    color: green;
+}
 .menuitem:hover {
-    background-color: #ffffff;
-    color: #blue;
+    background-color: white;
+}
+.menuitem:visited {
+    background-color: blue;
+    color: white;
 }
 a {
-    color: #blue;
+    color: blue;
     text-decoration: none;
 	
-}
-
-a:hover {
-    text-decoration: underline;
 }
 #menulist {
     padding:0;
@@ -88,8 +92,11 @@ a:hover {
 li {
   border-right: 1px solid #bbb;
 }
-
 li a:hover {
   background-color: #555;
   color: white;
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
 }
