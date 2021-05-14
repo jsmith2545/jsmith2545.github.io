@@ -58,7 +58,15 @@ table{
     text-align: center;
     cursor: pointer;
 }
-
+.td-section1{
+	background-color: #ffffff;
+}
+.td-section2{
+	background-color: #ffffff;
+}
+.td-logo {
+	 float: right;
+}
 .menuitem:hover {
     background-color: #ffffff;
     color: #blue;
