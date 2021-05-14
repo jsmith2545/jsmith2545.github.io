@@ -1,0 +1,87 @@
+body {
+	background-color: #FFF;
+	font-family: "Times New Roman", Times, serif;
+	background-image: none;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #003;
+	border-right-color: #003;
+	border-bottom-color: #003;
+	border-left-color: #003;
+	margin: 1px;
+	padding: 1px;
+	color: #000;
+	font-size: 24;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+nav {
+	font-weight: bold;
+}
+nav {
+	font-size: 24px;
+}
+table{
+	margin: 2px;
+	padding: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	background-color: #CCC;
+}
+.menuitem {
+	display: inline;
+	 float: left;
+    width: 105px;
+    background-color: #dddddd;
+    border: 1px solid #blue;
+    border-radius: 40px;
+    color: #blue;
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menuitem:hover {
+    background-color: #ffffff;
+    color: #blue;
+}
+a {
+    color: #blue;
+    text-decoration: none;
+	
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#menulist {
+    padding:0;
+    font: 16px verdana;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
