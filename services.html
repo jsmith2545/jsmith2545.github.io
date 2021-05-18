@@ -1,14 +1,14 @@
 <!--Jason Smith
-5/10/20
-Index.html
-this is my home page
+5/18/20
+services.html
+this is the page for services
 -->
 
 <!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
-<title>Websites R Us </title>
+<title>Websites R Us</title>
 </head>
 
 <body>
@@ -16,47 +16,58 @@ this is my home page
 <table>
   <tr>
     <td><ul id="menulist">
-      <li class="menuitem" ><a href="index.html">Home</a></li>
-       <li class="menuitem" ><a href="about.html">About Us</a></li>
-       <li class="menuitem" ><a href="services.html">Services</a></li>
-       <li class="menuitem" ><a href="gallery.html">Gallery</a></li>
-              <li class="menuitem" ><a href="contact.html">Contact Us</a></li>
-   </ul>
-
-    </td>
-    <td class="td-logo">
-        <nav><!--Note: The Nav is just placholder/spacer--><img src="logo.png" alt="Websites R Us" /></nav></td>
-  
+        <li class="menuitem" ><a href="index.html">Home</a></li>
+        <li class="menuitem" ><a href="about.html">About Us</a></li>
+        <li class="menuitem" ><a href="services.html">Services</a></li>
+        <li class="menuitem" ><a href="gallery.html">Gallery</a></li>
+        <li class="menuitem" ><a href="contact.html">Contact Us</a></li>
+      </ul></td>
+    <td class="td-logo"><img class="logo" src="logo.png" alt="Websites R Us" /></td>
   </tr>
-  <tr>
-    <td class="td-section1">
+</table>
+<!--Note: I added a DIV to help format areas of the page and allow for fluid format -->
+
+<div class="bodycontent">
+  <div class="leftcolumn">
+    <div class="toprow">
       <article>
         <h2>Services</h2>
-        <p>We offer several services related to websites.</p></article><article>
+        <p>We offer several services related to websites.</p>
       </article>
-      
-      
+      <article> </article>
+    </div>
+    <div class="bottomrow">
+      <article>
+        <h2>Options</h2>
+        <ul>
+          <li>Site creation</li>
+          <li>Site Modification</li>
+          <li>Site Hosting</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="toprow">
       <section>
-        <h2>&nbsp;</h2>
+        <h2>Upcoming Events<img class="hide-small" src="event.png" alt="Event" width="80" height="80"></h2>
+        <p>Hackathon to win a free custom website</p>
       </section>
-      <section> </section>
-    </td>
-    <td class="td-section2">
-    <section>
-      <h2>Upcoming Events<img src="event.png" alt="Event" width="80" height="80"></h2>
-      <p>Hackathon to win a free custom website</p>
-    </section>
+    </div>
+    <div class="bottomrow">
       <section>
-        <h2>News<img src="news.png" alt="News" width="80" height="80"></h2>
+        <h2>News<img class="hide-small" src="news.png" alt="News" width="80" height="80"></h2>
         <p>A dog chased a cat into a tree</p>
-    </section></td>
-  </tr>
+      </section>
+    </div>
+  </div>
+</div>
+<table>
   <tr>
-    <td>
-      <footer>
+    <td><footer>
         <p>If you have any question please reach out to NoOne at the following email address</p>
         <p><a href="mailto:noone@websitesrus.com">noone@websitesrus.com</a></p>
-    </footer></td>
+      </footer></td>
     <td>&nbsp;</td>
   </tr>
 </table>
