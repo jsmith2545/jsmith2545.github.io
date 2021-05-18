@@ -16,6 +16,19 @@ body {
 	font-size:24px;
 }
 
+/* Hide the images on small screens*/
+.hide-small {
+	visibility:hidden;
+}
+
+@media only screen and (min-width: 481px) {
+	.hide-small {
+		visibility:visible;
+		max-width:80px;
+		height: auto;
+	}
+}
+
 h1 {
   color: white;
   text-align: center;
@@ -31,8 +44,16 @@ nav {
 nav {
 	font-size: 24px;
 }
+footer{
+	width: 100%;
+	}
+.tr-header{
+	width: 100%;
+	}
+
 table{
 	margin: 2px;
+	width: 100%;
 	padding: 2px;
 	border-top-style: solid;
 	border-right-style: solid;
@@ -44,10 +65,29 @@ table{
 	border-left-color: #000;
 	background-color: #CCC;
 }
+.bodycontent
+ { 
+	width: 100%; 
+	float: left;
+
+}
+.leftcolumn { 
+	width: 75%; 
+	float: left;
+	margin-bottom: 1em;
+	background-color: white;
+}
+.rightcolumn { 
+	width: 25%; 
+	float: left;
+	margin-bottom: 1em;
+	background-color: white;
+}
+
 li.menuitem {
-	display: inline;
-	 float: left;
-    width: 105px;
+	display:list-item
+	float: left;
+    width: 100px;
     background-color: #dddddd;
     border: 1px solid blue;
     border-radius: 40px;
@@ -58,16 +98,43 @@ li.menuitem {
     text-align: center;
     cursor: pointer;
 }
+@media only screen and (min-width: 481px) {
+li.menuitem {
+	display: inline;
+	float: left;
+    width: 15%;
+    background-color: #dddddd;
+    border: 1px solid blue;
+    border-radius: 40px;
+    color: blue;
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+}
+
+
 .td-section1{
 	background-color: #ffffff;
 	text-align:left;
-	vertical-align:top
+	vertical-align:top;
+	width:75%;
 	}
 .td-section2{
 	background-color: #ffffff;
+	width:25%;
 }
 .td-logo {
-	 float: right;
+	float: right;
+	width: 20%;
+ 	height: auto;
+}
+.logo {
+	max-width:150px;
+ 	height: auto;
+	float: right;
 }
 a:visited {
     color: green;
