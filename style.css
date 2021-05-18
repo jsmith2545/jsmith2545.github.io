@@ -85,7 +85,7 @@ table{
 }
 
 li.menuitem {
-	display:list-item
+	display:list-item;
 	float: left;
     width: 100px;
     background-color: #dddddd;
